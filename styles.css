@@ -58,13 +58,14 @@ h1, h2 {
 /* Parte interactiva */
 .interactive input, .interactive button {
   padding: 8px;
+  border: 5px solid #ff0000;
   margin: 5px 0;
 }
 
 .interactive button {
   background-color: #000;
-  color: #fff;
-  border: none;
+  color: #ffffff74;
+  border: 5px solid #ff0000;
   cursor: pointer;
 }
 
