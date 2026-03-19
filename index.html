@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Ejemplo Interactivo</title>
-  <link rel="stylesheet" href="styles.css">
+  <form action="/action_page.php">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <button class="btn">Haz clic aquí
+    
+  </button>
 </head>
-<body>
-  <button class="btn" onclick="mostrarMensaje()">Haz clic aquí</button>
-  <div class="mensaje" id="mensaje">¡Interacción lograda! 🎉</div>
-
-  <script src="script.js"></script>
-</body>
 </html>
