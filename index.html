@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Page</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <h1>Bienvenido a mi página personal</h1>
@@ -13,14 +12,46 @@
     <p>Major: Computer Engineering</p>
     <p></p>University: University of Los Andes</p>
     <p>Year of University Enrollment: 2022</p>
-    <p>Link to your Github: [Github Profile](https://github.com/renato4141)</p>
+    <p>Github Profile: <a href="https://github.com/renato4141" target="_blank">Github Profile</a></p>
     <p>Personal summary: Im here, and i havent given up, i hope thats enough</p>
   </p>
-  <table>
-    <tr><th> Tabla de Habilidades </th></tr>
-    <tr><th>Course</th><th>Grade</th></tr>
-    <tr></tr><td>Programming 1</td><td>A</td></tr>
-    <tr><td>Data Structures</td><td>A-</td></tr>
-    <tr><td>Algorithms</td><td>B+</td></tr>
+  <h2>A little about me</h2>
+  <p> Hello, My name is Renato Ilzauspe, I'm a Computer Engineering student at the University of Los Andes.</p>
+
+  <section class="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Playing video games</li>
+      <li>Watching movies</li>
+      <li>Cooking</li>
+      <li>Traveling</li>
+    </ul>
+  </section>
+
+  <section class="Skills"
+    <table>
+      <h2>Personal Skills</h2>
+      <tr><th>Skill</th><th>Level</th></tr>
+      <tr><td>Python</td><td>Advanced</td></tr>
+      <tr><td>Excel</td><td>Intermediate</td></tr>
+      <tr><td>Portuguese</td><td>Basic</td></tr> 
+      <tr><td>English</td><td>Advanced</td></tr>
+      <tr><td>Spanish</td><td>Native</td></tr>
+    </table>  
+    <script>
+        function Text() {
+            var i = document.getElementById("Input").value;
+            document.getElementById("output").innerText = i;
+        }
+    </script>
+        <section class="interactive">
+        <h2>Interactive Part</h2>
+        <p>Write something and that something will be returned :O :</p>
+
+        <input type="text" id="Input" placeholder="Type here">
+        <button onclick="Text()">Update</button>
+
+        <p class="result">I say: <span id="output">Write something and I will repeat after you</span></p>
+    </section>
 </body>
 </html>
